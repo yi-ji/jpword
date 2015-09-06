@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+#wordapp {
+    height: 100%;
+    position: relative;
+}
+
+.no-float {
+    float: none !important;
+}
+.words-collection-row {
+    position: relative;
+    height: auto;
+    top: 80px;
+}
+
+.word-item {
+    margin-bottom: 15px !important;
+}
+
+.mytext {
+    font-family: Courier;
+}
+
+.login-row {
+    position: relative;
+    height: auto;
+    top: 50px;
+}
+ .my-button {
+     margin: 10px;
+ }
+ *.unselectable {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+.modal {
+  text-align: center;
+}
+
+.modal:before {
+  /*
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+  */
+}
+
+.modal-dialog {
+  /*
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  */
+}
+.play-button {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+Searching 21 files for "get_word" (case sensitive)
+
+/Users/jiyi/Documents/pku/linux/jpword/static/js/collections/words-collection.js:
+   10  		model: WordItem,
+   11  		
+   12: 		url: '/get_word/',
+   13  	});
+   14  
+
+1 match in 1 file

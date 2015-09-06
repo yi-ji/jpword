@@ -1,0 +1,24 @@
+<% var collapseID = 'collapse' + word %>
+<% var tuneDict = '〇①②③'; %>
+<div class="panel-heading" role="tab">
+  <h4 class="panel-title text-center">
+    <a role="button" class="word-item-title unselectable" data-toggle="collapse" href="#<%= collapseID %>" aria-expanded="true" aria-controls="<%= collapseID %>">
+      <%= word %>
+    </a>
+  </h4>
+</div>
+<div id="<%= collapseID %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="<%= collapseID %>">
+  <div class="panel-body">
+    <p>
+      <%= pronoun %> &nbsp; <%= tuneDict[tune] %>
+      &nbsp; &nbsp; 
+      <a class="glyphicon glyphicon-volume-up play-button" 
+        onclick="this.getElementsByTagName('audio')[0].play()">
+        <audio src="mp3/<%= word %>.mp3">
+        </audio>
+      </a>
+    </p>
+    <br>
+    <p><%= meaning %><p>
+  </div>
+</div>
